@@ -2,8 +2,26 @@ body {
     background-color: black;
 }
 
-#Porsche #BMW {
-    width: 50%;
-    margin: auto;
-    align-content: middle;
+.car {
+    align-items: center;
+    margin-left: 14%;
+    padding-bottom: 0%;
+}
+
+#porsche{
+    position: relative;
+    left: 100px;
+}
+
+.link {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 40%;
+}
+
+h1 {
+    margin-left: 40%;
+    color: white;
 }
