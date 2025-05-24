@@ -1,5 +1,36 @@
-#hg {
+
+body {
+ background-color: black;
+}
+
+.hg {
     margin-left: 45%;
     text-align: center;
-    color: white;
+    color: black;
+}
+
+#carside {
+    height: 500px;
+    margin-left: 60%;
+}
+
+#bmw-emblem {
+    height: 250px;
+    margin-left: 2%;
+}
+
+tbody, thead {
+    text-align: center;
+}
+
+#pd {
+    padding-bottom: 25px;
+}
+
+#table {
+    margin-left: 33%;
+}
+
+.li {
+    position: relative;
 }

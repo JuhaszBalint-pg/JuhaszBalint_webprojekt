@@ -10,45 +10,51 @@
     #grad {
         height: 1080px;
         background-color: black;
-        background-image: linear-gradient(to bottom, blue, black);
+        background-image: linear-gradient(to bottom left, black, red);
     }
 </style>
 <body>
+<div id="grad">
 
     <div>
-        <img src="" alt="">
+        <img id="carside" src="images\E30side.png" alt="red BMW E30 sideways">
     </div>
 
-    <table>
-        <thead>
-            <th></th>
-        </thead>
-        <tbody>
-            <tr>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-            </tr>
-        </tbody>
-    </table>
+    <div id="table">
+        <table style="width: 50%;">
+            <thead>
+                <th colspan="2"> Műszaki jellemzők</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="pd" class="r" style="width: 50%;"> MOTOR </td>
+                    <td id="pd" class="l"> 2.7  M20 literes sor 6 </td>
+                </tr>
+                <tr>
+                    <td id="pd" class="r" style="width: 50%;"> TELJESÍTMÉNY </td>
+                    <td id="pd" class="l"> 192hp </td>
+                </tr>
+                <tr>
+                    <td class="r" style="width: 50%;"> VÁLTÓ </td>
+                    <td class="l"> 4 fokozatú, automata </td>
+                </tr>
+                <tr>
+                    <td class="rt" style="width: 50%;"> SÚLY </td>
+                    <td id="li" class="lt"> <ul> <li>1080</li> <li>1200</li> </ul> </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
     <div>
-        <img src="" alt="">
+        <img id="bmw-emblem" src="images\bmw-emblem.png" alt="red coloured BMW emblem">
     </div>
-
-    <div id="grad">
-        <a href="index.html" id="hg">VISSZA A FŐOLDALRA</a>
+    
+    <div>
+        <a href="https://speedzone.hu/bmw-e30-pickup-dehogy-ez-igazabol-egy-toyota-tacoma/" class="hg">Vonatkozó szakmai weboldal</a>
+        <a href="index.html" class="hg">VISSZA A FŐOLDALRA</a>
     </div>
+    
+</div>
 </body>
 </html>

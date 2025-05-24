@@ -1,5 +1,34 @@
-#hg {
+body {
+ background-color: black;
+}
+
+.hg {
     margin-left: 45%;
     text-align: center;
     color: black;
+}
+
+#carside {
+    height: 500px;
+}
+
+#porsche-emblem {
+    height: 250px;
+    margin-left: 80%;
+}
+
+tbody, thead {
+    text-align: center;
+}
+
+#pd {
+    padding-bottom: 25px;
+}
+
+#table {
+    margin-left: 33%;
+}
+
+.li {
+    position: relative;
 }
